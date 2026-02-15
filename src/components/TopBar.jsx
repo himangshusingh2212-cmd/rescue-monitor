@@ -70,12 +70,13 @@ const styles = {
     alignItems: "center",
     justifyContent: "space-between",
     backdropFilter: "blur(6px)",
+    fontSize: "20px",
   },
   title: {
     letterSpacing: "2px",
   },
   icon: {
-    fontSize: "18px",
+    fontSize: "25px",
   },
 };
 
