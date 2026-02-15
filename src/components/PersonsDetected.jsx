@@ -10,17 +10,17 @@ const PersonsDetected = ({ count }) => {
 const styles = {
   container: {
     position: "absolute",
-    top: "563px",              // BELOW water level bar
+    top: "555px",              // BELOW water level bar
     right: "30px",             // same alignment as water tank
-    width: "260px",            // unchanged
+    width: "450px",            // unchanged
     padding: "60px 20px",      // increased height
     background: "rgba(255,255,255,0.15)",
-    backdropFilter: "blur(6px)",
+    backdropFilter: "blur(0px)",
     textAlign: "center",
     color: "white",
   },
   title: {
-    fontSize: "18px",
+    fontSize: "35px",
     letterSpacing: "1.5px",
     marginBottom: "18px",      // more vertical space
   },

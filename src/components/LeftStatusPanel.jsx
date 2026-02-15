@@ -55,7 +55,7 @@ const styles = {
     width: "465px",              // was 260px (+27%)
     padding: "45px 45px",             // was 20px
     background: "rgba(255,255,255,0.15)",
-    backdropFilter: "blur(2px)",
+    backdropFilter: "blur(0px)",
     color: "white",
   },
   block: {
