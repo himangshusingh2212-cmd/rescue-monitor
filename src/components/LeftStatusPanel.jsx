@@ -50,24 +50,26 @@ const LeftStatusPanel = ({
 const styles = {
   panel: {
     position: "absolute",
-    top: "120px",
+    top: "256px",
     left: "30px",
-    width: "330px",              // was 260px (+27%)
-    padding: "26px",             // was 20px
+    width: "465px",              // was 260px (+27%)
+    padding: "45px 45px",             // was 20px
     background: "rgba(255,255,255,0.15)",
-    backdropFilter: "blur(6px)",
+    backdropFilter: "blur(2px)",
     color: "white",
   },
   block: {
     marginBottom: "36px",        // was 28px
   },
   label: {
-    fontSize: "20px",            // was 16px (+25%)
+    fontSize: "38px",            // was 16px (+25%)
     letterSpacing: "1.2px",
     marginBottom: "10px",        // was 6px
   },
   value: {
-    fontSize: "26px",            // was 20px (+30%)
+    fontSize: "33px", 
+    marginTop: "25px", 
+    marginLeft: "72px",
     fontWeight: "bold",
   },
 };
