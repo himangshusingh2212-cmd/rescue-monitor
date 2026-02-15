@@ -4,6 +4,7 @@ import LeftStatusPanel from "./components/LeftStatusPanel";
 import WaterLevel from "./components/WaterLevel";
 import Crosshair from "./components/Crosshair";
 import PersonsDetected from "./components/PersonsDetected";
+import UltrasonicRadar from "./components/UltrasonicRadar";
 
 import useSensorSocket from "./hooks/useSensorSocket";
 
@@ -38,7 +39,7 @@ function App() {
       />
 
       <WaterLevel level={sensorData.water} />
-
+      <UltrasonicRadar data={sensorData.ultrasonic} />
       <Crosshair />
 
       <PersonsDetected count={sensorData.persons} />
