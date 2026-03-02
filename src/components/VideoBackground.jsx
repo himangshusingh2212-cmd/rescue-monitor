@@ -1,16 +1,12 @@
 const VideoBackground = () => {
+
   return (
     <div style={styles.container}>
-      <video
-        autoPlay
-        loop
-        muted
+      <img
+        src="http://192.168.50.240:81/stream"
+        alt="Live Stream"
         style={styles.video}
-      >
-        <source src="/fire.mp4" type="video/mp4" />
-      </video>
-
-      {/* Overlay layer */}
+      />
       <div style={styles.overlay} />
     </div>
   );
@@ -19,8 +15,12 @@ const VideoBackground = () => {
 const styles = {
   container: {
     position: "fixed",
-    inset: 0,
-    zIndex: -1,
+    top: 0,
+    left: 0,
+    width: "100vw",
+    height: "100vh",
+    zIndex: 0,
+    overflow: "hidden",
   },
   video: {
     width: "100%",

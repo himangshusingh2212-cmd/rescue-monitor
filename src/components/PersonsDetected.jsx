@@ -10,7 +10,7 @@ const PersonsDetected = ({ count }) => {
 const styles = {
   container: {
     position: "absolute",
-    top: "555px",              // BELOW water level bar
+    top: "563px",              // BELOW water level bar
     right: "30px",             // same alignment as water tank
     width: "450px",            // unchanged
     padding: "60px 20px",      // increased height
