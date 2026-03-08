@@ -40,7 +40,7 @@ function App() {
     };
 
     fetchData();
-    const interval = setInterval(fetchData, 2000);
+    const interval = setInterval(fetchData, 1000);
 
     return () => clearInterval(interval);
   }, []);
@@ -56,7 +56,7 @@ return (
     <VideoBackground />
 
     {!sensorData && (
-      <div style={{ color: "red", position: "absolute", top: 20 }}>
+      <div style={{ color: "red", position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", fontSize: 30 }}>
         Sensor offline...
       </div>
     )}
